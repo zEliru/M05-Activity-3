@@ -32,7 +32,7 @@ namespace ConsoleApp1
                         TopicSixQuestions();
                         break;
                     case ConsoleKey.D0:
-                        // topic 6
+                        // topic ?
                         break;
                     default:
                         Console.WriteLine("Error: You pressed an invalid button.");
