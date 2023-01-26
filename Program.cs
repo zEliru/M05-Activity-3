@@ -47,7 +47,7 @@ namespace ConsoleApp1
             Console.WriteLine("1 - Colors");
             Console.WriteLine("2 - Food");
             Console.WriteLine("3 - Dofus");
-            Console.WriteLine("4 - Topic 4");
+            Console.WriteLine("4 - HACKING");
             Console.WriteLine("5 - Topic 5");
             Console.WriteLine("6 - Topic 6");
             Console.WriteLine("0 - Exit");
@@ -771,16 +771,16 @@ namespace ConsoleApp1
             Console.Clear();
             int choosenNumber = 0;
             bool valid = false;
-            Console.WriteLine("WELCOME TO TOPIC #4 - ????");
+            Console.WriteLine("WELCOME TO TOPIC #4 - HACKING");
             while (!valid) // TOPIC 4 - Q #1
             {
                 try
                 {
-                    Console.WriteLine("1st Question - ????");
-                    Console.WriteLine("Option 1 - ????");
-                    Console.WriteLine("Option 2 - ????");
-                    Console.WriteLine("Option 3 - ????");
-                    Console.WriteLine("Option 4 - ????");
+                    Console.WriteLine("1st Question - What's the least commonly used operative systema or distro by hackers?");
+                    Console.WriteLine("Option 1 - ParrotOS");
+                    Console.WriteLine("Option 2 - Windows");
+                    Console.WriteLine("Option 3 - Kali Linux");
+                    Console.WriteLine("Option 4 - Arch Linux");
                     choosenNumber = Convert.ToInt32(Console.ReadLine());
 
                     switch (choosenNumber)
@@ -790,6 +790,7 @@ namespace ConsoleApp1
                             break;
                         case 2:
                             valid = true;
+                            Console.WriteLine("Correct, who the hell hack in Windows (?)");
                             break;
                         case 3:
                             valid = true;
@@ -813,11 +814,11 @@ namespace ConsoleApp1
             {
                 try
                 {
-                    Console.WriteLine("2nd Question - ????");
-                    Console.WriteLine("Option 1 - ????");
-                    Console.WriteLine("Option 2 - ????");
-                    Console.WriteLine("Option 3 - ????");
-                    Console.WriteLine("Option 4 - ????");
+                    Console.WriteLine("2nd Question - Which one of these options is the most common type of SQL Injection");
+                    Console.WriteLine("Option 1 - Rainbow Table Attack");
+                    Console.WriteLine("Option 2 - Brute Force");
+                    Console.WriteLine("Option 3 - In-band SQLi");
+                    Console.WriteLine("Option 4 - Inject vaccine to your database");
                     choosenNumber = Convert.ToInt32(Console.ReadLine());
 
                     switch (choosenNumber)
@@ -830,6 +831,7 @@ namespace ConsoleApp1
                             break;
                         case 3:
                             valid = true;
+                            Console.WriteLine("Correct!");
                             break;
                         case 4:
                             valid = true;
@@ -850,11 +852,11 @@ namespace ConsoleApp1
             {
                 try
                 {
-                    Console.WriteLine("3rd Question - ????");
-                    Console.WriteLine("Option 1 - ????");
-                    Console.WriteLine("Option 2 - ????");
-                    Console.WriteLine("Option 3 - ????");
-                    Console.WriteLine("Option 4 - ????");
+                    Console.WriteLine("3rd Question - What's the most popular programming language in the hacker community?");
+                    Console.WriteLine("Option 1 - C#");
+                    Console.WriteLine("Option 2 - Java");
+                    Console.WriteLine("Option 3 - Spanish");
+                    Console.WriteLine("Option 4 - Python");
                     choosenNumber = Convert.ToInt32(Console.ReadLine());
 
                     switch (choosenNumber)
@@ -870,6 +872,7 @@ namespace ConsoleApp1
                             break;
                         case 4:
                             valid = true;
+                            Console.WriteLine("Hello World!");
                             break;
                         default:
                             throw
@@ -887,11 +890,11 @@ namespace ConsoleApp1
             {
                 try
                 {
-                    Console.WriteLine("4th Question - ????");
-                    Console.WriteLine("Option 1 - ????");
-                    Console.WriteLine("Option 2 - ????");
-                    Console.WriteLine("Option 3 - ????");
-                    Console.WriteLine("Option 4 - ????");
+                    Console.WriteLine("4th Question - What can't you do with Flipper Zero?");
+                    Console.WriteLine("Option 1 - Open car doors.");
+                    Console.WriteLine("Option 2 - Emulate NFC tags");
+                    Console.WriteLine("Option 3 - Peel an apple.");
+                    Console.WriteLine("Option 4 - Clone Hotel cards.");
                     choosenNumber = Convert.ToInt32(Console.ReadLine());
 
                     switch (choosenNumber)
@@ -904,6 +907,7 @@ namespace ConsoleApp1
                             break;
                         case 3:
                             valid = true;
+                            Console.WriteLine("Correct!");
                             break;
                         case 4:
                             valid = true;
@@ -924,11 +928,11 @@ namespace ConsoleApp1
             {
                 try
                 {
-                    Console.WriteLine("5th Question - ????");
-                    Console.WriteLine("Option 1 - ????");
-                    Console.WriteLine("Option 2 - ????");
-                    Console.WriteLine("Option 3 - ????");
-                    Console.WriteLine("Option 4 - ????");
+                    Console.WriteLine("5th Question - What's a rubber duck?");
+                    Console.WriteLine("Option 1 - A plastic duck");
+                    Console.WriteLine("Option 2 - A rubber with the form of a duck");
+                    Console.WriteLine("Option 3 - A bird.");
+                    Console.WriteLine("Option 4 - A common hacking tool.");
                     choosenNumber = Convert.ToInt32(Console.ReadLine());
 
                     switch (choosenNumber)
