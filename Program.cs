@@ -768,6 +768,7 @@ namespace ConsoleApp1
 
         public static void TopicFourQuestions()
         {
+            Console.Clear();
             int choosenNumber = 0;
             bool valid = false;
             Console.WriteLine("WELCOME TO TOPIC #4 - ????");
@@ -962,6 +963,7 @@ namespace ConsoleApp1
 
         public static void TopicFiveQuestions()
         {
+            Console.Clear();
             int choosenNumber = 0;
             bool valid = false;
             Console.WriteLine("WELCOME TO TOPIC #5 - ????");
@@ -1156,6 +1158,7 @@ namespace ConsoleApp1
 
         public static void TopicSixQuestions()
         {
+            Console.Clear();
             int choosenNumber = 0;
             bool valid = false;
             Console.WriteLine("WELCOME TO TOPIC #6 - ????");
