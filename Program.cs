@@ -47,9 +47,9 @@ namespace ConsoleApp1
             Console.WriteLine("1 - Colors");
             Console.WriteLine("2 - Food");
             Console.WriteLine("3 - Dofus");
-            Console.WriteLine("4 - Topic 4");
-            Console.WriteLine("5 - Topic 5");
-            Console.WriteLine("6 - Topic 6");
+            Console.WriteLine("4 - HACKING");
+            Console.WriteLine("5 - SPORTS");
+            Console.WriteLine("6 - RANDOM");
             Console.WriteLine("0 - Exit");
 
 
@@ -764,28 +764,23 @@ namespace ConsoleApp1
 
         }
 
+        //Olegg
 
-
-
-
-
-
-
-        //Oleg
         public static void TopicFourQuestions()
         {
+            Console.Clear();
             int choosenNumber = 0;
             bool valid = false;
-            Console.WriteLine("WELCOME TO TOPIC #4 - ????");
-            while (!valid)
+            Console.WriteLine("WELCOME TO TOPIC #4 - HACKING");
+            while (!valid) // TOPIC 4 - Q #1
             {
                 try
                 {
-                    Console.WriteLine("1st Question - ????");
-                    Console.WriteLine("Option 1 - ????");
-                    Console.WriteLine("Option 2 - ????");
-                    Console.WriteLine("Option 3 - ????");
-                    Console.WriteLine("Option 4 - ????");
+                    Console.WriteLine("1st Question - What's the least commonly used operative systema or distro by hackers?");
+                    Console.WriteLine("Option 1 - ParrotOS");
+                    Console.WriteLine("Option 2 - Windows");
+                    Console.WriteLine("Option 3 - Kali Linux");
+                    Console.WriteLine("Option 4 - Arch Linux");
                     choosenNumber = Convert.ToInt32(Console.ReadLine());
 
                     switch (choosenNumber)
@@ -795,43 +790,7 @@ namespace ConsoleApp1
                             break;
                         case 2:
                             valid = true;
-                            break;
-                        case 3:
-                            valid = true;
-                            break;
-                        case 4:
-                            valid = true;
-                            break;
-                        default:
-                            throw 
-                                new Exception("ERROR - ENTER A NUMBER BETWEEN 1 - 4");
-                    }
-                }
-                catch (Exception e)
-                {
-                    Console.WriteLine(e.Message);
-                }
-            } // TOPIC 4 - Q1
-            valid = false;
-            Console.WriteLine("SUBMITTED ANSWER TO OUR DATEBASE");
-            while (!valid)
-            {
-                try
-                {
-                    Console.WriteLine("2nd Question - ????");
-                    Console.WriteLine("Option 1 - ????");
-                    Console.WriteLine("Option 2 - ????");
-                    Console.WriteLine("Option 3 - ????");
-                    Console.WriteLine("Option 4 - ????");
-                    choosenNumber = Convert.ToInt32(Console.ReadLine());
-
-                    switch (choosenNumber)
-                    {
-                        case 1:
-                            valid = true;
-                            break;
-                        case 2:
-                            valid = true;
+                            Console.WriteLine("Correct, who the hell hack in Windows (?)");
                             break;
                         case 3:
                             valid = true;
@@ -848,18 +807,56 @@ namespace ConsoleApp1
                 {
                     Console.WriteLine(e.Message);
                 }
-            } // TOPIC 4 - Q2
+            }
             valid = false;
             Console.WriteLine("SUBMITTED ANSWER TO OUR DATEBASE");
-            while (!valid)
+            while (!valid) // TOPIC 4 - Q #2
             {
                 try
                 {
-                    Console.WriteLine("3rd Question - ????");
-                    Console.WriteLine("Option 1 - ????");
-                    Console.WriteLine("Option 2 - ????");
-                    Console.WriteLine("Option 3 - ????");
-                    Console.WriteLine("Option 4 - ????");
+                    Console.WriteLine("2nd Question - Which one of these options is the most common type of SQL Injection");
+                    Console.WriteLine("Option 1 - Rainbow Table Attack");
+                    Console.WriteLine("Option 2 - Brute Force");
+                    Console.WriteLine("Option 3 - In-band SQLi");
+                    Console.WriteLine("Option 4 - Inject vaccine to your database");
+                    choosenNumber = Convert.ToInt32(Console.ReadLine());
+
+                    switch (choosenNumber)
+                    {
+                        case 1:
+                            valid = true;
+                            break;
+                        case 2:
+                            valid = true;
+                            break;
+                        case 3:
+                            valid = true;
+                            Console.WriteLine("Correct!");
+                            break;
+                        case 4:
+                            valid = true;
+                            break;
+                        default:
+                            throw
+                                new Exception("ERROR - ENTER A NUMBER BETWEEN 1 - 4");
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+            }
+            valid = false;
+            Console.WriteLine("SUBMITTED ANSWER TO OUR DATEBASE");
+            while (!valid) // TOPIC 4 - Q #3
+            {
+                try
+                {
+                    Console.WriteLine("3rd Question - What's the most popular programming language in the hacker community?");
+                    Console.WriteLine("Option 1 - C#");
+                    Console.WriteLine("Option 2 - Java");
+                    Console.WriteLine("Option 3 - Spanish");
+                    Console.WriteLine("Option 4 - Python");
                     choosenNumber = Convert.ToInt32(Console.ReadLine());
 
                     switch (choosenNumber)
@@ -875,6 +872,7 @@ namespace ConsoleApp1
                             break;
                         case 4:
                             valid = true;
+                            Console.WriteLine("Hello World!");
                             break;
                         default:
                             throw
@@ -885,18 +883,56 @@ namespace ConsoleApp1
                 {
                     Console.WriteLine(e.Message);
                 }
-            } // TOPIC 4 - Q3
+            }
             valid = false;
             Console.WriteLine("SUBMITTED ANSWER TO OUR DATEBASE");
-            while (!valid)
+            while (!valid) // TOPIC 4 - Q #4
             {
                 try
                 {
-                    Console.WriteLine("3rd Question - ????");
-                    Console.WriteLine("Option 1 - ????");
-                    Console.WriteLine("Option 2 - ????");
-                    Console.WriteLine("Option 3 - ????");
-                    Console.WriteLine("Option 4 - ????");
+                    Console.WriteLine("4th Question - What can't you do with Flipper Zero?");
+                    Console.WriteLine("Option 1 - Open car doors.");
+                    Console.WriteLine("Option 2 - Emulate NFC tags");
+                    Console.WriteLine("Option 3 - Peel an apple.");
+                    Console.WriteLine("Option 4 - Clone Hotel cards.");
+                    choosenNumber = Convert.ToInt32(Console.ReadLine());
+
+                    switch (choosenNumber)
+                    {
+                        case 1:
+                            valid = true;
+                            break;
+                        case 2:
+                            valid = true;
+                            break;
+                        case 3:
+                            valid = true;
+                            Console.WriteLine("Correct!");
+                            break;
+                        case 4:
+                            valid = true;
+                            break;
+                        default:
+                            throw
+                                new Exception("ERROR - ENTER A NUMBER BETWEEN 1 - 4");
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+            }
+            valid = false;
+            Console.WriteLine("SUBMITTED ANSWER TO OUR DATEBASE");
+            while (!valid) // TOPIC 4 - Q #5
+            {
+                try
+                {
+                    Console.WriteLine("5th Question - What's a rubber duck?");
+                    Console.WriteLine("Option 1 - A plastic duck");
+                    Console.WriteLine("Option 2 - A rubber with the form of a duck");
+                    Console.WriteLine("Option 3 - A bird.");
+                    Console.WriteLine("Option 4 - A common hacking tool.");
                     choosenNumber = Convert.ToInt32(Console.ReadLine());
 
                     switch (choosenNumber)
@@ -912,6 +948,7 @@ namespace ConsoleApp1
                             break;
                         case 4:
                             valid = true;
+                            Console.WriteLine("That's right!");
                             break;
                         default:
                             throw
@@ -922,32 +959,150 @@ namespace ConsoleApp1
                 {
                     Console.WriteLine(e.Message);
                 }
-            } // TOPIC 4 - Q4
+            }
             valid = false;
             Console.WriteLine("SUBMITTED ANSWER TO OUR DATEBASE");
+            Console.WriteLine("PRESS ENTER TO BACK TO THE MAIN MENU");
+            Console.ReadKey();
             ShowMenu();
         }
 
         public static void TopicFiveQuestions()
         {
+            Console.Clear();
             int choosenNumber = 0;
             bool valid = false;
-            Console.WriteLine("WELCOME TO TOPIC #4 - ????");
-            while (!valid)
+            Console.WriteLine("WELCOME TO TOPIC #5 - SPORTS");
+            while (!valid) // TOPIC 5 - Q #1
             {
                 try
                 {
-                    Console.WriteLine("1st Question - ????");
-                    Console.WriteLine("Option 1 - ????");
-                    Console.WriteLine("Option 2 - ????");
-                    Console.WriteLine("Option 3 - ????");
-                    Console.WriteLine("Option 4 - ????");
+                    Console.WriteLine("1st Question - What national team won the last World Cup?");
+                    Console.WriteLine("Option 1 - France");
+                    Console.WriteLine("Option 2 - Brazil");
+                    Console.WriteLine("Option 3 - Miquel");
+                    Console.WriteLine("Option 4 - Qué mirás bobo?, andate pa' ya, bobo!");
                     choosenNumber = Convert.ToInt32(Console.ReadLine());
 
                     switch (choosenNumber)
                     {
                         case 1:
                             valid = true;
+                            break;
+                        case 2:
+                            valid = true;
+                            break;
+                        case 3:
+                            valid = true;
+                            break;
+                        case 4:
+                            valid = true;
+                            Console.WriteLine("Ché, boludo!");
+                            break;
+                        default:
+                            throw
+                                new Exception("ERROR - ENTER A NUMBER BETWEEN 1 - 4");
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+            }
+            valid = false;
+            Console.WriteLine("SUBMITTED ANSWER TO OUR DATEBASE");
+            while (!valid) // TOPIC 5 - Q #2
+            {
+                try
+                {
+                    Console.WriteLine("2nd Question - How's called football in USA?");
+                    Console.WriteLine("Option 1 - Rugby");
+                    Console.WriteLine("Option 2 - Football");
+                    Console.WriteLine("Option 3 - Soccer");
+                    Console.WriteLine("Option 4 - Yee haw!");
+                    choosenNumber = Convert.ToInt32(Console.ReadLine());
+
+                    switch (choosenNumber)
+                    {
+                        case 1:
+                            valid = true;
+                            break;
+                        case 2:
+                            valid = true;
+                            break;
+                        case 3:
+                            valid = true;
+                            Console.WriteLine("It's soccer and don't make any sense.");
+                            break;
+                        case 4:
+                            valid = true;
+                            break;
+                        default:
+                            throw
+                                new Exception("ERROR - ENTER A NUMBER BETWEEN 1 - 4");
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+            }
+            valid = false;
+            Console.WriteLine("SUBMITTED ANSWER TO OUR DATEBASE");
+            while (!valid) // TOPIC 5 - Q #3
+            {
+                try
+                {
+                    Console.WriteLine("3rd Question - In Rugby there's a tradition of make a tribal worrior dance before the match, by which country?");
+                    Console.WriteLine("Option 1 - Spain");
+                    Console.WriteLine("Option 2 - Andorra");
+                    Console.WriteLine("Option 3 - China");
+                    Console.WriteLine("Option 4 - New Zealand");
+                    choosenNumber = Convert.ToInt32(Console.ReadLine());
+
+                    switch (choosenNumber)
+                    {
+                        case 1:
+                            valid = true;
+                            break;
+                        case 2:
+                            valid = true;
+                            break;
+                        case 3:
+                            valid = true;
+                            break;
+                        case 4:
+                            valid = true;
+                            Console.WriteLine("True! And it's called Haka!");
+                            break;
+                        default:
+                            throw
+                                new Exception("ERROR - ENTER A NUMBER BETWEEN 1 - 4");
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+            }
+            valid = false;
+            Console.WriteLine("SUBMITTED ANSWER TO OUR DATEBASE");
+            while (!valid) // TOPIC 5 - Q #4
+            {
+                try
+                {
+                    Console.WriteLine("4th Question - Is chess a sport?");
+                    Console.WriteLine("Option 1 - Yes");
+                    Console.WriteLine("Option 2 - No");
+                    Console.WriteLine("Option 3 - On");
+                    Console.WriteLine("Option 4 - Sey");
+                    choosenNumber = Convert.ToInt32(Console.ReadLine());
+
+                    switch (choosenNumber)
+                    {
+                        case 1:
+                            valid = true;
+                            Console.WriteLine("Correct!");
                             break;
                         case 2:
                             valid = true;
@@ -967,18 +1122,18 @@ namespace ConsoleApp1
                 {
                     Console.WriteLine(e.Message);
                 }
-            } // TOPIC 5 - Q1
+            }
             valid = false;
             Console.WriteLine("SUBMITTED ANSWER TO OUR DATEBASE");
-            while (!valid)
+            while (!valid) // TOPIC 5 - Q #5
             {
                 try
                 {
-                    Console.WriteLine("2nd Question - ????");
-                    Console.WriteLine("Option 1 - ????");
-                    Console.WriteLine("Option 2 - ????");
-                    Console.WriteLine("Option 3 - ????");
-                    Console.WriteLine("Option 4 - ????");
+                    Console.WriteLine("5th Question - Which of these contries has less Olimpic gold medals?");
+                    Console.WriteLine("Option 1 - Spain");
+                    Console.WriteLine("Option 2 - Malboro");
+                    Console.WriteLine("Option 3 - Samoa");
+                    Console.WriteLine("Option 4 - China");
                     choosenNumber = Convert.ToInt32(Console.ReadLine());
 
                     switch (choosenNumber)
@@ -991,6 +1146,7 @@ namespace ConsoleApp1
                             break;
                         case 3:
                             valid = true;
+                            Console.WriteLine("That's right!");
                             break;
                         case 4:
                             valid = true;
@@ -1004,100 +1160,29 @@ namespace ConsoleApp1
                 {
                     Console.WriteLine(e.Message);
                 }
-            } // TOPIC 5 - Q2
+            }
             valid = false;
             Console.WriteLine("SUBMITTED ANSWER TO OUR DATEBASE");
-            while (!valid)
-            {
-                try
-                {
-                    Console.WriteLine("3rd Question - ????");
-                    Console.WriteLine("Option 1 - ????");
-                    Console.WriteLine("Option 2 - ????");
-                    Console.WriteLine("Option 3 - ????");
-                    Console.WriteLine("Option 4 - ????");
-                    choosenNumber = Convert.ToInt32(Console.ReadLine());
-
-                    switch (choosenNumber)
-                    {
-                        case 1:
-                            valid = true;
-                            break;
-                        case 2:
-                            valid = true;
-                            break;
-                        case 3:
-                            valid = true;
-                            break;
-                        case 4:
-                            valid = true;
-                            break;
-                        default:
-                            throw
-                                new Exception("ERROR - ENTER A NUMBER BETWEEN 1 - 4");
-                    }
-                }
-                catch (Exception e)
-                {
-                    Console.WriteLine(e.Message);
-                }
-            } // TOPIC 5 - Q3
-            valid = false;
-            Console.WriteLine("SUBMITTED ANSWER TO OUR DATEBASE");
-            while (!valid)
-            {
-                try
-                {
-                    Console.WriteLine("3rd Question - ????");
-                    Console.WriteLine("Option 1 - ????");
-                    Console.WriteLine("Option 2 - ????");
-                    Console.WriteLine("Option 3 - ????");
-                    Console.WriteLine("Option 4 - ????");
-                    choosenNumber = Convert.ToInt32(Console.ReadLine());
-
-                    switch (choosenNumber)
-                    {
-                        case 1:
-                            valid = true;
-                            break;
-                        case 2:
-                            valid = true;
-                            break;
-                        case 3:
-                            valid = true;
-                            break;
-                        case 4:
-                            valid = true;
-                            break;
-                        default:
-                            throw
-                                new Exception("ERROR - ENTER A NUMBER BETWEEN 1 - 4");
-                    }
-                }
-                catch (Exception e)
-                {
-                    Console.WriteLine(e.Message);
-                }
-            } // TOPIC 5 - Q4
-            valid = false;
-            Console.WriteLine("SUBMITTED ANSWER TO OUR DATEBASE");
+            Console.WriteLine("PRESS ENTER TO BACK TO THE MAIN MENU");
+            Console.ReadKey();
             ShowMenu();
         }
 
         public static void TopicSixQuestions()
         {
+            Console.Clear();
             int choosenNumber = 0;
             bool valid = false;
-            Console.WriteLine("WELCOME TO TOPIC #4 - ????");
-            while (!valid)
+            Console.WriteLine("WELCOME TO TOPIC #6 - RANDOM");
+            while (!valid) // TOPIC 6 - Q #1
             {
                 try
                 {
-                    Console.WriteLine("1st Question - ????");
-                    Console.WriteLine("Option 1 - ????");
-                    Console.WriteLine("Option 2 - ????");
-                    Console.WriteLine("Option 3 - ????");
-                    Console.WriteLine("Option 4 - ????");
+                    Console.WriteLine("1st Question - What's the weather outside?");
+                    Console.WriteLine("Option 1 - Rainy");
+                    Console.WriteLine("Option 2 - Foggy");
+                    Console.WriteLine("Option 3 - Sunny");
+                    Console.WriteLine("Option 4 - Cloudy");
                     choosenNumber = Convert.ToInt32(Console.ReadLine());
 
                     switch (choosenNumber)
@@ -1123,24 +1208,25 @@ namespace ConsoleApp1
                 {
                     Console.WriteLine(e.Message);
                 }
-            } // TOPIC 6 - Q1
+            }
             valid = false;
             Console.WriteLine("SUBMITTED ANSWER TO OUR DATEBASE");
-            while (!valid)
+            while (!valid) // TOPIC 6 - Q #2
             {
                 try
                 {
-                    Console.WriteLine("2nd Question - ????");
-                    Console.WriteLine("Option 1 - ????");
-                    Console.WriteLine("Option 2 - ????");
-                    Console.WriteLine("Option 3 - ????");
-                    Console.WriteLine("Option 4 - ????");
+                    Console.WriteLine("2nd Question - What's the SELECT command to know the date?");
+                    Console.WriteLine("Option 1 - SELECT SYSDATE FROM DUAL;");
+                    Console.WriteLine("Option 2 - SELECT THE DATE OF TODAY;");
+                    Console.WriteLine("Option 3 - SELECT WHAT'S TODAY'S DAY?;");
+                    Console.WriteLine("Option 4 - DROP DATEBASE;");
                     choosenNumber = Convert.ToInt32(Console.ReadLine());
 
                     switch (choosenNumber)
                     {
                         case 1:
                             valid = true;
+                            Console.WriteLine("YEP!");
                             break;
                         case 2:
                             valid = true;
@@ -1160,18 +1246,18 @@ namespace ConsoleApp1
                 {
                     Console.WriteLine(e.Message);
                 }
-            } // TOPIC 6 - Q2
+            }
             valid = false;
             Console.WriteLine("SUBMITTED ANSWER TO OUR DATEBASE");
-            while (!valid)
+            while (!valid) // TOPIC 6 - Q #3
             {
                 try
                 {
-                    Console.WriteLine("3rd Question - ????");
-                    Console.WriteLine("Option 1 - ????");
-                    Console.WriteLine("Option 2 - ????");
-                    Console.WriteLine("Option 3 - ????");
-                    Console.WriteLine("Option 4 - ????");
+                    Console.WriteLine("3rd Question - What's the color of mature banana?");
+                    Console.WriteLine("Option 1 - Green");
+                    Console.WriteLine("Option 2 - Yellow");
+                    Console.WriteLine("Option 3 - Red");
+                    Console.WriteLine("Option 4 - Police");
                     choosenNumber = Convert.ToInt32(Console.ReadLine());
 
                     switch (choosenNumber)
@@ -1181,6 +1267,7 @@ namespace ConsoleApp1
                             break;
                         case 2:
                             valid = true;
+                            Console.WriteLine("Tasty correct!");
                             break;
                         case 3:
                             valid = true;
@@ -1197,18 +1284,18 @@ namespace ConsoleApp1
                 {
                     Console.WriteLine(e.Message);
                 }
-            } // TOPIC 6 - Q3
+            }
             valid = false;
             Console.WriteLine("SUBMITTED ANSWER TO OUR DATEBASE");
-            while (!valid)
+            while (!valid) // TOPIC 6 - Q #4
             {
                 try
                 {
-                    Console.WriteLine("3rd Question - ????");
-                    Console.WriteLine("Option 1 - ????");
-                    Console.WriteLine("Option 2 - ????");
-                    Console.WriteLine("Option 3 - ????");
-                    Console.WriteLine("Option 4 - ????");
+                    Console.WriteLine("4th Question - Which one of these Pokémon types don't exist?");
+                    Console.WriteLine("Option 1 - Fire");
+                    Console.WriteLine("Option 2 - Fairy");
+                    Console.WriteLine("Option 3 - Fuego");
+                    Console.WriteLine("Option 4 - Fanta");
                     choosenNumber = Convert.ToInt32(Console.ReadLine());
 
                     switch (choosenNumber)
@@ -1224,6 +1311,7 @@ namespace ConsoleApp1
                             break;
                         case 4:
                             valid = true;
+                            Console.WriteLine("Correct!");
                             break;
                         default:
                             throw
@@ -1234,9 +1322,49 @@ namespace ConsoleApp1
                 {
                     Console.WriteLine(e.Message);
                 }
-            } // TOPIC 6 - Q4
+            }
             valid = false;
             Console.WriteLine("SUBMITTED ANSWER TO OUR DATEBASE");
+            while (!valid) // TOPIC 6 - Q #5
+            {
+                try
+                {
+                    Console.WriteLine("5th Question - What's the point of the life?");
+                    Console.WriteLine("Option 1 - First get one");
+                    Console.WriteLine("Option 2 - Who knows");
+                    Console.WriteLine("Option 3 - Estas son Reebok o son Nike, son Nike, oh yeah!");
+                    Console.WriteLine("Option 4 - Todas son correctas.");
+                    choosenNumber = Convert.ToInt32(Console.ReadLine());
+
+                    switch (choosenNumber)
+                    {
+                        case 1:
+                            valid = true;
+                            break;
+                        case 2:
+                            valid = true;
+                            break;
+                        case 3:
+                            valid = true;
+                            break;
+                        case 4:
+                            valid = true;
+                            Console.WriteLine("Everything goes!");
+                            break;
+                        default:
+                            throw
+                                new Exception("ERROR - ENTER A NUMBER BETWEEN 1 - 4");
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+            }
+            valid = false;
+            Console.WriteLine("SUBMITTED ANSWER TO OUR DATEBASE");
+            Console.WriteLine("PRESS ENTER TO BACK TO THE MAIN MENU");
+            Console.ReadKey();
             ShowMenu();
         }
 
