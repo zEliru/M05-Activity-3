@@ -48,8 +48,8 @@ namespace ConsoleApp1
             Console.WriteLine("2 - Food");
             Console.WriteLine("3 - Dofus");
             Console.WriteLine("4 - HACKING");
-            Console.WriteLine("5 - Topic 5");
-            Console.WriteLine("6 - Topic 6");
+            Console.WriteLine("5 - SPORTS");
+            Console.WriteLine("6 - RANDOM");
             Console.WriteLine("0 - Exit");
 
 
@@ -948,6 +948,7 @@ namespace ConsoleApp1
                             break;
                         case 4:
                             valid = true;
+                            Console.WriteLine("That's right!");
                             break;
                         default:
                             throw
@@ -971,16 +972,16 @@ namespace ConsoleApp1
             Console.Clear();
             int choosenNumber = 0;
             bool valid = false;
-            Console.WriteLine("WELCOME TO TOPIC #5 - ????");
+            Console.WriteLine("WELCOME TO TOPIC #5 - SPORTS");
             while (!valid) // TOPIC 5 - Q #1
             {
                 try
                 {
-                    Console.WriteLine("1st Question - ????");
-                    Console.WriteLine("Option 1 - ????");
-                    Console.WriteLine("Option 2 - ????");
-                    Console.WriteLine("Option 3 - ????");
-                    Console.WriteLine("Option 4 - ????");
+                    Console.WriteLine("1st Question - What national team won the last World Cup?");
+                    Console.WriteLine("Option 1 - France");
+                    Console.WriteLine("Option 2 - Brazil");
+                    Console.WriteLine("Option 3 - Miquel");
+                    Console.WriteLine("Option 4 - Qué mirás bobo?, andate pa' ya, bobo!");
                     choosenNumber = Convert.ToInt32(Console.ReadLine());
 
                     switch (choosenNumber)
@@ -996,6 +997,7 @@ namespace ConsoleApp1
                             break;
                         case 4:
                             valid = true;
+                            Console.WriteLine("Ché, boludo!");
                             break;
                         default:
                             throw
@@ -1013,11 +1015,11 @@ namespace ConsoleApp1
             {
                 try
                 {
-                    Console.WriteLine("2nd Question - ????");
-                    Console.WriteLine("Option 1 - ????");
-                    Console.WriteLine("Option 2 - ????");
-                    Console.WriteLine("Option 3 - ????");
-                    Console.WriteLine("Option 4 - ????");
+                    Console.WriteLine("2nd Question - How's called football in USA?");
+                    Console.WriteLine("Option 1 - Rugby");
+                    Console.WriteLine("Option 2 - Football");
+                    Console.WriteLine("Option 3 - Soccer");
+                    Console.WriteLine("Option 4 - Yee haw!");
                     choosenNumber = Convert.ToInt32(Console.ReadLine());
 
                     switch (choosenNumber)
@@ -1030,6 +1032,7 @@ namespace ConsoleApp1
                             break;
                         case 3:
                             valid = true;
+                            Console.WriteLine("It's soccer and don't make any sense.");
                             break;
                         case 4:
                             valid = true;
@@ -1050,11 +1053,11 @@ namespace ConsoleApp1
             {
                 try
                 {
-                    Console.WriteLine("3rd Question - ????");
-                    Console.WriteLine("Option 1 - ????");
-                    Console.WriteLine("Option 2 - ????");
-                    Console.WriteLine("Option 3 - ????");
-                    Console.WriteLine("Option 4 - ????");
+                    Console.WriteLine("3rd Question - In Rugby there's a tradition of make a tribal worrior dance before the match, by which country?");
+                    Console.WriteLine("Option 1 - Spain");
+                    Console.WriteLine("Option 2 - Andorra");
+                    Console.WriteLine("Option 3 - China");
+                    Console.WriteLine("Option 4 - New Zealand");
                     choosenNumber = Convert.ToInt32(Console.ReadLine());
 
                     switch (choosenNumber)
@@ -1070,6 +1073,7 @@ namespace ConsoleApp1
                             break;
                         case 4:
                             valid = true;
+                            Console.WriteLine("True! And it's called Haka!");
                             break;
                         default:
                             throw
@@ -1087,17 +1091,18 @@ namespace ConsoleApp1
             {
                 try
                 {
-                    Console.WriteLine("4th Question - ????");
-                    Console.WriteLine("Option 1 - ????");
-                    Console.WriteLine("Option 2 - ????");
-                    Console.WriteLine("Option 3 - ????");
-                    Console.WriteLine("Option 4 - ????");
+                    Console.WriteLine("4th Question - Is chess a sport?");
+                    Console.WriteLine("Option 1 - Yes");
+                    Console.WriteLine("Option 2 - No");
+                    Console.WriteLine("Option 3 - On");
+                    Console.WriteLine("Option 4 - Sey");
                     choosenNumber = Convert.ToInt32(Console.ReadLine());
 
                     switch (choosenNumber)
                     {
                         case 1:
                             valid = true;
+                            Console.WriteLine("Correct!");
                             break;
                         case 2:
                             valid = true;
@@ -1124,11 +1129,11 @@ namespace ConsoleApp1
             {
                 try
                 {
-                    Console.WriteLine("4th Question - ????");
-                    Console.WriteLine("Option 1 - ????");
-                    Console.WriteLine("Option 2 - ????");
-                    Console.WriteLine("Option 3 - ????");
-                    Console.WriteLine("Option 4 - ????");
+                    Console.WriteLine("5th Question - Which of these contries has less Olimpic gold medals?");
+                    Console.WriteLine("Option 1 - Spain");
+                    Console.WriteLine("Option 2 - Malboro");
+                    Console.WriteLine("Option 3 - Samoa");
+                    Console.WriteLine("Option 4 - China");
                     choosenNumber = Convert.ToInt32(Console.ReadLine());
 
                     switch (choosenNumber)
@@ -1141,6 +1146,7 @@ namespace ConsoleApp1
                             break;
                         case 3:
                             valid = true;
+                            Console.WriteLine("That's right!");
                             break;
                         case 4:
                             valid = true;
@@ -1167,16 +1173,16 @@ namespace ConsoleApp1
             Console.Clear();
             int choosenNumber = 0;
             bool valid = false;
-            Console.WriteLine("WELCOME TO TOPIC #6 - ????");
+            Console.WriteLine("WELCOME TO TOPIC #6 - RANDOM");
             while (!valid) // TOPIC 6 - Q #1
             {
                 try
                 {
-                    Console.WriteLine("1st Question - ????");
-                    Console.WriteLine("Option 1 - ????");
-                    Console.WriteLine("Option 2 - ????");
-                    Console.WriteLine("Option 3 - ????");
-                    Console.WriteLine("Option 4 - ????");
+                    Console.WriteLine("1st Question - What's the weather outside?");
+                    Console.WriteLine("Option 1 - Rainy");
+                    Console.WriteLine("Option 2 - Foggy");
+                    Console.WriteLine("Option 3 - Sunny");
+                    Console.WriteLine("Option 4 - Cloudy");
                     choosenNumber = Convert.ToInt32(Console.ReadLine());
 
                     switch (choosenNumber)
@@ -1209,17 +1215,18 @@ namespace ConsoleApp1
             {
                 try
                 {
-                    Console.WriteLine("2nd Question - ????");
-                    Console.WriteLine("Option 1 - ????");
-                    Console.WriteLine("Option 2 - ????");
-                    Console.WriteLine("Option 3 - ????");
-                    Console.WriteLine("Option 4 - ????");
+                    Console.WriteLine("2nd Question - What's the SELECT command to know the date?");
+                    Console.WriteLine("Option 1 - SELECT SYSDATE FROM DUAL;");
+                    Console.WriteLine("Option 2 - SELECT THE DATE OF TODAY;");
+                    Console.WriteLine("Option 3 - SELECT WHAT'S TODAY'S DAY?;");
+                    Console.WriteLine("Option 4 - DROP DATEBASE;");
                     choosenNumber = Convert.ToInt32(Console.ReadLine());
 
                     switch (choosenNumber)
                     {
                         case 1:
                             valid = true;
+                            Console.WriteLine("YEP!");
                             break;
                         case 2:
                             valid = true;
@@ -1246,11 +1253,11 @@ namespace ConsoleApp1
             {
                 try
                 {
-                    Console.WriteLine("3rd Question - ????");
-                    Console.WriteLine("Option 1 - ????");
-                    Console.WriteLine("Option 2 - ????");
-                    Console.WriteLine("Option 3 - ????");
-                    Console.WriteLine("Option 4 - ????");
+                    Console.WriteLine("3rd Question - What's the color of mature banana?");
+                    Console.WriteLine("Option 1 - Green");
+                    Console.WriteLine("Option 2 - Yellow");
+                    Console.WriteLine("Option 3 - Red");
+                    Console.WriteLine("Option 4 - Police");
                     choosenNumber = Convert.ToInt32(Console.ReadLine());
 
                     switch (choosenNumber)
@@ -1260,6 +1267,7 @@ namespace ConsoleApp1
                             break;
                         case 2:
                             valid = true;
+                            Console.WriteLine("Tasty correct!");
                             break;
                         case 3:
                             valid = true;
@@ -1283,11 +1291,11 @@ namespace ConsoleApp1
             {
                 try
                 {
-                    Console.WriteLine("4th Question - ????");
-                    Console.WriteLine("Option 1 - ????");
-                    Console.WriteLine("Option 2 - ????");
-                    Console.WriteLine("Option 3 - ????");
-                    Console.WriteLine("Option 4 - ????");
+                    Console.WriteLine("4th Question - Which one of these Pokémon types don't exist?");
+                    Console.WriteLine("Option 1 - Fire");
+                    Console.WriteLine("Option 2 - Fairy");
+                    Console.WriteLine("Option 3 - Fuego");
+                    Console.WriteLine("Option 4 - Fanta");
                     choosenNumber = Convert.ToInt32(Console.ReadLine());
 
                     switch (choosenNumber)
@@ -1303,6 +1311,7 @@ namespace ConsoleApp1
                             break;
                         case 4:
                             valid = true;
+                            Console.WriteLine("Correct!");
                             break;
                         default:
                             throw
@@ -1320,11 +1329,11 @@ namespace ConsoleApp1
             {
                 try
                 {
-                    Console.WriteLine("5th Question - ????");
-                    Console.WriteLine("Option 1 - ????");
-                    Console.WriteLine("Option 2 - ????");
-                    Console.WriteLine("Option 3 - ????");
-                    Console.WriteLine("Option 4 - ????");
+                    Console.WriteLine("5th Question - What's the point of the life?");
+                    Console.WriteLine("Option 1 - First get one");
+                    Console.WriteLine("Option 2 - Who knows");
+                    Console.WriteLine("Option 3 - Estas son Reebok o son Nike, son Nike, oh yeah!");
+                    Console.WriteLine("Option 4 - Todas son correctas.");
                     choosenNumber = Convert.ToInt32(Console.ReadLine());
 
                     switch (choosenNumber)
@@ -1340,6 +1349,7 @@ namespace ConsoleApp1
                             break;
                         case 4:
                             valid = true;
+                            Console.WriteLine("Everything goes!");
                             break;
                         default:
                             throw
