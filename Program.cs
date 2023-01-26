@@ -1,4 +1,6 @@
-﻿namespace ConsoleApp1
+﻿using System.Linq.Expressions;
+
+namespace ConsoleApp1
 {
     internal class Program
     {
@@ -21,13 +23,13 @@
                         TopicThreeQuestions();
                         break;
                     case ConsoleKey.D4:
-                        // topic 4
+                        TopicFourQuestions();
                         break;
                     case ConsoleKey.D5:
-                        // topic 5
+                        TopicFiveQuestions();
                         break;
                     case ConsoleKey.D6:
-                        // topic 6
+                        TopicSixQuestions();
                         break;
                     case ConsoleKey.D0:
                         // topic 6
@@ -770,7 +772,473 @@
 
 
         //Oleg
+        public static void TopicFourQuestions()
+        {
+            int choosenNumber = 0;
+            bool valid = false;
+            Console.WriteLine("WELCOME TO TOPIC #4 - ????");
+            while (!valid)
+            {
+                try
+                {
+                    Console.WriteLine("1st Question - ????");
+                    Console.WriteLine("Option 1 - ????");
+                    Console.WriteLine("Option 2 - ????");
+                    Console.WriteLine("Option 3 - ????");
+                    Console.WriteLine("Option 4 - ????");
+                    choosenNumber = Convert.ToInt32(Console.ReadLine());
 
+                    switch (choosenNumber)
+                    {
+                        case 1:
+                            valid = true;
+                            break;
+                        case 2:
+                            valid = true;
+                            break;
+                        case 3:
+                            valid = true;
+                            break;
+                        case 4:
+                            valid = true;
+                            break;
+                        default:
+                            throw 
+                                new Exception("ERROR - ENTER A NUMBER BETWEEN 1 - 4");
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+            } // TOPIC 4 - Q1
+            valid = false;
+            Console.WriteLine("SUBMITTED ANSWER TO OUR DATEBASE");
+            while (!valid)
+            {
+                try
+                {
+                    Console.WriteLine("2nd Question - ????");
+                    Console.WriteLine("Option 1 - ????");
+                    Console.WriteLine("Option 2 - ????");
+                    Console.WriteLine("Option 3 - ????");
+                    Console.WriteLine("Option 4 - ????");
+                    choosenNumber = Convert.ToInt32(Console.ReadLine());
+
+                    switch (choosenNumber)
+                    {
+                        case 1:
+                            valid = true;
+                            break;
+                        case 2:
+                            valid = true;
+                            break;
+                        case 3:
+                            valid = true;
+                            break;
+                        case 4:
+                            valid = true;
+                            break;
+                        default:
+                            throw
+                                new Exception("ERROR - ENTER A NUMBER BETWEEN 1 - 4");
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+            } // TOPIC 4 - Q2
+            valid = false;
+            Console.WriteLine("SUBMITTED ANSWER TO OUR DATEBASE");
+            while (!valid)
+            {
+                try
+                {
+                    Console.WriteLine("3rd Question - ????");
+                    Console.WriteLine("Option 1 - ????");
+                    Console.WriteLine("Option 2 - ????");
+                    Console.WriteLine("Option 3 - ????");
+                    Console.WriteLine("Option 4 - ????");
+                    choosenNumber = Convert.ToInt32(Console.ReadLine());
+
+                    switch (choosenNumber)
+                    {
+                        case 1:
+                            valid = true;
+                            break;
+                        case 2:
+                            valid = true;
+                            break;
+                        case 3:
+                            valid = true;
+                            break;
+                        case 4:
+                            valid = true;
+                            break;
+                        default:
+                            throw
+                                new Exception("ERROR - ENTER A NUMBER BETWEEN 1 - 4");
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+            } // TOPIC 4 - Q3
+            valid = false;
+            Console.WriteLine("SUBMITTED ANSWER TO OUR DATEBASE");
+            while (!valid)
+            {
+                try
+                {
+                    Console.WriteLine("3rd Question - ????");
+                    Console.WriteLine("Option 1 - ????");
+                    Console.WriteLine("Option 2 - ????");
+                    Console.WriteLine("Option 3 - ????");
+                    Console.WriteLine("Option 4 - ????");
+                    choosenNumber = Convert.ToInt32(Console.ReadLine());
+
+                    switch (choosenNumber)
+                    {
+                        case 1:
+                            valid = true;
+                            break;
+                        case 2:
+                            valid = true;
+                            break;
+                        case 3:
+                            valid = true;
+                            break;
+                        case 4:
+                            valid = true;
+                            break;
+                        default:
+                            throw
+                                new Exception("ERROR - ENTER A NUMBER BETWEEN 1 - 4");
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+            } // TOPIC 4 - Q4
+            valid = false;
+            Console.WriteLine("SUBMITTED ANSWER TO OUR DATEBASE");
+            ShowMenu();
+        }
+
+        public static void TopicFiveQuestions()
+        {
+            int choosenNumber = 0;
+            bool valid = false;
+            Console.WriteLine("WELCOME TO TOPIC #4 - ????");
+            while (!valid)
+            {
+                try
+                {
+                    Console.WriteLine("1st Question - ????");
+                    Console.WriteLine("Option 1 - ????");
+                    Console.WriteLine("Option 2 - ????");
+                    Console.WriteLine("Option 3 - ????");
+                    Console.WriteLine("Option 4 - ????");
+                    choosenNumber = Convert.ToInt32(Console.ReadLine());
+
+                    switch (choosenNumber)
+                    {
+                        case 1:
+                            valid = true;
+                            break;
+                        case 2:
+                            valid = true;
+                            break;
+                        case 3:
+                            valid = true;
+                            break;
+                        case 4:
+                            valid = true;
+                            break;
+                        default:
+                            throw
+                                new Exception("ERROR - ENTER A NUMBER BETWEEN 1 - 4");
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+            } // TOPIC 5 - Q1
+            valid = false;
+            Console.WriteLine("SUBMITTED ANSWER TO OUR DATEBASE");
+            while (!valid)
+            {
+                try
+                {
+                    Console.WriteLine("2nd Question - ????");
+                    Console.WriteLine("Option 1 - ????");
+                    Console.WriteLine("Option 2 - ????");
+                    Console.WriteLine("Option 3 - ????");
+                    Console.WriteLine("Option 4 - ????");
+                    choosenNumber = Convert.ToInt32(Console.ReadLine());
+
+                    switch (choosenNumber)
+                    {
+                        case 1:
+                            valid = true;
+                            break;
+                        case 2:
+                            valid = true;
+                            break;
+                        case 3:
+                            valid = true;
+                            break;
+                        case 4:
+                            valid = true;
+                            break;
+                        default:
+                            throw
+                                new Exception("ERROR - ENTER A NUMBER BETWEEN 1 - 4");
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+            } // TOPIC 5 - Q2
+            valid = false;
+            Console.WriteLine("SUBMITTED ANSWER TO OUR DATEBASE");
+            while (!valid)
+            {
+                try
+                {
+                    Console.WriteLine("3rd Question - ????");
+                    Console.WriteLine("Option 1 - ????");
+                    Console.WriteLine("Option 2 - ????");
+                    Console.WriteLine("Option 3 - ????");
+                    Console.WriteLine("Option 4 - ????");
+                    choosenNumber = Convert.ToInt32(Console.ReadLine());
+
+                    switch (choosenNumber)
+                    {
+                        case 1:
+                            valid = true;
+                            break;
+                        case 2:
+                            valid = true;
+                            break;
+                        case 3:
+                            valid = true;
+                            break;
+                        case 4:
+                            valid = true;
+                            break;
+                        default:
+                            throw
+                                new Exception("ERROR - ENTER A NUMBER BETWEEN 1 - 4");
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+            } // TOPIC 5 - Q3
+            valid = false;
+            Console.WriteLine("SUBMITTED ANSWER TO OUR DATEBASE");
+            while (!valid)
+            {
+                try
+                {
+                    Console.WriteLine("3rd Question - ????");
+                    Console.WriteLine("Option 1 - ????");
+                    Console.WriteLine("Option 2 - ????");
+                    Console.WriteLine("Option 3 - ????");
+                    Console.WriteLine("Option 4 - ????");
+                    choosenNumber = Convert.ToInt32(Console.ReadLine());
+
+                    switch (choosenNumber)
+                    {
+                        case 1:
+                            valid = true;
+                            break;
+                        case 2:
+                            valid = true;
+                            break;
+                        case 3:
+                            valid = true;
+                            break;
+                        case 4:
+                            valid = true;
+                            break;
+                        default:
+                            throw
+                                new Exception("ERROR - ENTER A NUMBER BETWEEN 1 - 4");
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+            } // TOPIC 5 - Q4
+            valid = false;
+            Console.WriteLine("SUBMITTED ANSWER TO OUR DATEBASE");
+            ShowMenu();
+        }
+
+        public static void TopicSixQuestions()
+        {
+            int choosenNumber = 0;
+            bool valid = false;
+            Console.WriteLine("WELCOME TO TOPIC #4 - ????");
+            while (!valid)
+            {
+                try
+                {
+                    Console.WriteLine("1st Question - ????");
+                    Console.WriteLine("Option 1 - ????");
+                    Console.WriteLine("Option 2 - ????");
+                    Console.WriteLine("Option 3 - ????");
+                    Console.WriteLine("Option 4 - ????");
+                    choosenNumber = Convert.ToInt32(Console.ReadLine());
+
+                    switch (choosenNumber)
+                    {
+                        case 1:
+                            valid = true;
+                            break;
+                        case 2:
+                            valid = true;
+                            break;
+                        case 3:
+                            valid = true;
+                            break;
+                        case 4:
+                            valid = true;
+                            break;
+                        default:
+                            throw
+                                new Exception("ERROR - ENTER A NUMBER BETWEEN 1 - 4");
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+            } // TOPIC 6 - Q1
+            valid = false;
+            Console.WriteLine("SUBMITTED ANSWER TO OUR DATEBASE");
+            while (!valid)
+            {
+                try
+                {
+                    Console.WriteLine("2nd Question - ????");
+                    Console.WriteLine("Option 1 - ????");
+                    Console.WriteLine("Option 2 - ????");
+                    Console.WriteLine("Option 3 - ????");
+                    Console.WriteLine("Option 4 - ????");
+                    choosenNumber = Convert.ToInt32(Console.ReadLine());
+
+                    switch (choosenNumber)
+                    {
+                        case 1:
+                            valid = true;
+                            break;
+                        case 2:
+                            valid = true;
+                            break;
+                        case 3:
+                            valid = true;
+                            break;
+                        case 4:
+                            valid = true;
+                            break;
+                        default:
+                            throw
+                                new Exception("ERROR - ENTER A NUMBER BETWEEN 1 - 4");
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+            } // TOPIC 6 - Q2
+            valid = false;
+            Console.WriteLine("SUBMITTED ANSWER TO OUR DATEBASE");
+            while (!valid)
+            {
+                try
+                {
+                    Console.WriteLine("3rd Question - ????");
+                    Console.WriteLine("Option 1 - ????");
+                    Console.WriteLine("Option 2 - ????");
+                    Console.WriteLine("Option 3 - ????");
+                    Console.WriteLine("Option 4 - ????");
+                    choosenNumber = Convert.ToInt32(Console.ReadLine());
+
+                    switch (choosenNumber)
+                    {
+                        case 1:
+                            valid = true;
+                            break;
+                        case 2:
+                            valid = true;
+                            break;
+                        case 3:
+                            valid = true;
+                            break;
+                        case 4:
+                            valid = true;
+                            break;
+                        default:
+                            throw
+                                new Exception("ERROR - ENTER A NUMBER BETWEEN 1 - 4");
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+            } // TOPIC 6 - Q3
+            valid = false;
+            Console.WriteLine("SUBMITTED ANSWER TO OUR DATEBASE");
+            while (!valid)
+            {
+                try
+                {
+                    Console.WriteLine("3rd Question - ????");
+                    Console.WriteLine("Option 1 - ????");
+                    Console.WriteLine("Option 2 - ????");
+                    Console.WriteLine("Option 3 - ????");
+                    Console.WriteLine("Option 4 - ????");
+                    choosenNumber = Convert.ToInt32(Console.ReadLine());
+
+                    switch (choosenNumber)
+                    {
+                        case 1:
+                            valid = true;
+                            break;
+                        case 2:
+                            valid = true;
+                            break;
+                        case 3:
+                            valid = true;
+                            break;
+                        case 4:
+                            valid = true;
+                            break;
+                        default:
+                            throw
+                                new Exception("ERROR - ENTER A NUMBER BETWEEN 1 - 4");
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+            } // TOPIC 6 - Q4
+            valid = false;
+            Console.WriteLine("SUBMITTED ANSWER TO OUR DATEBASE");
+            ShowMenu();
+        }
 
         //end
     }
