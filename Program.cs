@@ -44,7 +44,7 @@
             Console.WriteLine("Welcome to the main menu");
             Console.WriteLine("1 - Colors");
             Console.WriteLine("2 - Food");
-            Console.WriteLine("3 - Topic 3");
+            Console.WriteLine("3 - Dofus");
             Console.WriteLine("4 - Topic 4");
             Console.WriteLine("5 - Topic 5");
             Console.WriteLine("6 - Topic 6");
@@ -519,8 +519,9 @@
 
 
             }
-            valid = false;
+
             Console.WriteLine("Thank you for participating. Press any key to go to the menu.");
+            Console.ReadKey();
             ShowMenu();
 
 
@@ -529,35 +530,35 @@
         public static void TopicThreeQuestions()
         {
             Console.Clear();
-            Console.WriteLine("Hi, welcome to Topic One XD.");
+            Console.WriteLine("Hi, welcome to topic three: Dofus.");
             bool valid = false;
             while (!valid)
             {
                 try
                 {
                     int choiceFromUser = 0;
-                    Console.WriteLine("Question 1: What's my favorite color?");
-                    Console.WriteLine("1 - ");
-                    Console.WriteLine("2 - ");
-                    Console.WriteLine("3 - ");
-                    Console.WriteLine("4 - ");
+                    Console.WriteLine("Question 1: What's my favorite class in Dofus?");
+                    Console.WriteLine("1 - Xelor");
+                    Console.WriteLine("2 - Sadida");
+                    Console.WriteLine("3 - Feca");
+                    Console.WriteLine("4 - Panda");
                     choiceFromUser = Convert.ToInt32(Console.ReadLine());
                     switch (choiceFromUser)
                     {
                         case 1:
-                            Console.WriteLine("");
+                            Console.WriteLine("Correct");
                             valid = true;
                             break;
                         case 2:
-                            Console.WriteLine("");
+                            Console.WriteLine("Wrong");
                             valid = true;
                             break;
                         case 3:
-                            Console.WriteLine("");
+                            Console.WriteLine("Wrong");
                             valid = true;
                             break;
                         case 4:
-                            Console.WriteLine("");
+                            Console.WriteLine("Wrong");
                             valid = true;
                             break;
                         default:
@@ -581,28 +582,28 @@
                 try
                 {
                     int choiceFromUser = 0;
-                    Console.WriteLine("Question 1: What's my favorite color?");
-                    Console.WriteLine("1 - ");
-                    Console.WriteLine("2 - ");
-                    Console.WriteLine("3 - ");
-                    Console.WriteLine("4 - ");
+                    Console.WriteLine("Question 2: What element is the most broken?");
+                    Console.WriteLine("1 - Agility");
+                    Console.WriteLine("2 - Strength");
+                    Console.WriteLine("3 - Intelligence");
+                    Console.WriteLine("4 - Chance");
                     choiceFromUser = Convert.ToInt32(Console.ReadLine());
                     switch (choiceFromUser)
                     {
                         case 1:
-                            Console.WriteLine("");
+                            Console.WriteLine("Correct");
                             valid = true;
                             break;
                         case 2:
-                            Console.WriteLine("");
+                            Console.WriteLine("Wrong");
                             valid = true;
                             break;
                         case 3:
-                            Console.WriteLine("");
+                            Console.WriteLine("Wrong");
                             valid = true;
                             break;
                         case 4:
-                            Console.WriteLine("");
+                            Console.WriteLine("Wrong");
                             valid = true;
                             break;
                         default:
@@ -626,28 +627,28 @@
                 try
                 {
                     int choiceFromUser = 0;
-                    Console.WriteLine("Question 1: What's my favorite color?");
-                    Console.WriteLine("1 - ");
-                    Console.WriteLine("2 - ");
-                    Console.WriteLine("3 - ");
-                    Console.WriteLine("4 - ");
+                    Console.WriteLine("Question 3: What's the class used the most for PvM farming?");
+                    Console.WriteLine("1 - Xelor");
+                    Console.WriteLine("2 - Ecaflip");
+                    Console.WriteLine("3 - Eniripsa");
+                    Console.WriteLine("4 - Cra");
                     choiceFromUser = Convert.ToInt32(Console.ReadLine());
                     switch (choiceFromUser)
                     {
                         case 1:
-                            Console.WriteLine("");
+                            Console.WriteLine("Wrong");
                             valid = true;
                             break;
                         case 2:
-                            Console.WriteLine("");
+                            Console.WriteLine("Wrong");
                             valid = true;
                             break;
                         case 3:
-                            Console.WriteLine("");
+                            Console.WriteLine("Wrong");
                             valid = true;
                             break;
                         case 4:
-                            Console.WriteLine("");
+                            Console.WriteLine("Correct.");
                             valid = true;
                             break;
                         default:
@@ -671,28 +672,28 @@
                 try
                 {
                     int choiceFromUser = 0;
-                    Console.WriteLine("Question 1: What's my favorite color?");
-                    Console.WriteLine("1 - ");
-                    Console.WriteLine("2 - ");
-                    Console.WriteLine("3 - ");
-                    Console.WriteLine("4 - ");
+                    Console.WriteLine("Question 4: Where does a new character spawn?");
+                    Console.WriteLine("1 - Incraman");
+                    Console.WriteLine("2 - Incarnam");
+                    Console.WriteLine("3 - Incrarman");
+                    Console.WriteLine("4 - Incarman");
                     choiceFromUser = Convert.ToInt32(Console.ReadLine());
                     switch (choiceFromUser)
                     {
                         case 1:
-                            Console.WriteLine("");
+                            Console.WriteLine("Wrong");
                             valid = true;
                             break;
                         case 2:
-                            Console.WriteLine("");
+                            Console.WriteLine("Correct.");
                             valid = true;
                             break;
                         case 3:
-                            Console.WriteLine("");
+                            Console.WriteLine("Wrong");
                             valid = true;
                             break;
                         case 4:
-                            Console.WriteLine("");
+                            Console.WriteLine("Wrong");
                             valid = true;
                             break;
                         default:
@@ -716,28 +717,28 @@
                 try
                 {
                     int choiceFromUser = 0;
-                    Console.WriteLine("Question 1: What's my favorite color?");
-                    Console.WriteLine("1 - ");
-                    Console.WriteLine("2 - ");
-                    Console.WriteLine("3 - ");
-                    Console.WriteLine("4 - ");
+                    Console.WriteLine("Question 5: What's my favorite color?");
+                    Console.WriteLine("1 - NOT COLORS AGAIN PLEASE");
+                    Console.WriteLine("2 - Red");
+                    Console.WriteLine("3 - Green");
+                    Console.WriteLine("4 - Blue");
                     choiceFromUser = Convert.ToInt32(Console.ReadLine());
                     switch (choiceFromUser)
                     {
                         case 1:
-                            Console.WriteLine("");
+                            Console.WriteLine("Wrong.");
                             valid = true;
                             break;
                         case 2:
-                            Console.WriteLine("");
+                            Console.WriteLine("Wrong");
                             valid = true;
                             break;
                         case 3:
-                            Console.WriteLine("");
+                            Console.WriteLine("Correct.");
                             valid = true;
                             break;
                         case 4:
-                            Console.WriteLine("");
+                            Console.WriteLine("Wrong");
                             valid = true;
                             break;
                         default:
@@ -754,9 +755,8 @@
 
 
             }
-            valid = false;
-            Console.WriteLine("Answer submitted.");
-
+            Console.WriteLine("Thank you for participating. Press any key to go to the menu.");
+            Console.ReadKey();
             ShowMenu();
 
 
