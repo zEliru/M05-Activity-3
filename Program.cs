@@ -957,6 +957,7 @@ namespace ConsoleApp1
             }
             valid = false;
             Console.WriteLine("SUBMITTED ANSWER TO OUR DATEBASE");
+            Console.WriteLine("PRESS ENTER TO BACK TO THE MAIN MENU");
             Console.ReadKey();
             ShowMenu();
         }
@@ -1152,6 +1153,7 @@ namespace ConsoleApp1
             }
             valid = false;
             Console.WriteLine("SUBMITTED ANSWER TO OUR DATEBASE");
+            Console.WriteLine("PRESS ENTER TO BACK TO THE MAIN MENU");
             Console.ReadKey();
             ShowMenu();
         }
@@ -1347,6 +1349,7 @@ namespace ConsoleApp1
             }
             valid = false;
             Console.WriteLine("SUBMITTED ANSWER TO OUR DATEBASE");
+            Console.WriteLine("PRESS ENTER TO BACK TO THE MAIN MENU");
             Console.ReadKey();
             ShowMenu();
         }
