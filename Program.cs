@@ -764,7 +764,7 @@ namespace ConsoleApp1
 
         }
 
-        //Olegg
+        //Oleggg
 
         public static void TopicFourQuestions()
         {
